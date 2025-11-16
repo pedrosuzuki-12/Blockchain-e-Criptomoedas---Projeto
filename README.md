@@ -40,7 +40,8 @@ Para testar a aplicação, siga os passos abaixo:
 
 ## 📄 Informações do Contrato
 
-*   **Endereço do Contrato na Sepolia:** `0xfe5b7CE2CF5f1B04F29046792daA98CF76133374`
+*   **Endereço do Contrato na Sepolia:** `0xa38EabC5C69B00B71202775BE81A444AC5587558`
+*   **Ver no Etherscan:** [https://sepolia.etherscan.io/address/0xfe5b7CE2CF5f1B04F29046792daA98CF76133374](https://sepolia.etherscan.io/address/0xfe5b7CE2CF5f1B04F29046792daA98CF76133374)](https://sepolia.etherscan.io/tx/0x432c114d71d03fd79708adc29a099100f3a012feddc0e10e3a894e5c82f02032)
 
 ---
 
