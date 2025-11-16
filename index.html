@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Protótipo de Tokenização de Imóvel</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 2em auto; padding: 1em; background-color: #f4f4f4; }
+        .card { background-color: white; padding: 1.5em; border-radius: 8px; margin-bottom: 1em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        button { cursor: pointer; padding: 0.5em 1em; border-radius: 4px; border: none; background-color: #007bff; color: white; }
+        input { width: 95%; padding: 0.5em; margin-bottom: 0.5em; }
+    </style>
+</head>
+<body>
+    <h1>Protótipo de Tokenização de Imóvel (TIE)</h1>
+
+    <div class="card">
+        <button id="connectButton">Conectar Carteira</button>
+        <p><strong>Status:</strong> <span id="status">Desconectado</span></p>
+        <p><strong>Endereço da Carteira:</strong> <span id="walletAddress">N/A</span></p>
+    </div>
+
+    <div class="card">
+        <h2>Meu Saldo</h2>
+        <p><span id="tokenBalance">0</span> TIE</p>
+        <button id="refreshBalanceButton">Atualizar Saldo</button>
+    </div>
+    
+    <div class="card">
+        <h2>Transferir Tokens</h2>
+        <input type="text" id="recipientAddress" placeholder="Endereço do Destinatário">
+        <input type="text" id="transferAmount" placeholder="Quantidade">
+        <button id="transferButton">Transferir</button>
+    </div>
+    
+    <div class="card">
+        <h2>Log de Atividades</h2>
+        <p id="logMessage">-</p>
+    </div>
+    
+    <!-- Import biblioteca Ethers.js -->
+<script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js" type="application/javascript"></script>  
+    <script src="app.js"></script>
+</body>
+</html>
